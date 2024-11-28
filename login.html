@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - To-Do App</title>
+  <link rel="stylesheet" href="login.css">
+  <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-auth.js"></script>
+
+</head>
+<body>
+  <div class="login-container">
+    <h1>Login to Your Account</h1>
+    <!-- <form action="#" class="login-form">
+</form> -->
+<div class="input-group">
+  <label for="username">Email</label>
+  <input type="text" id="email" name="username" placeholder="Enter your username/Email">
+</div>
+<div class="input-group">
+  <label for="password">Password</label>
+  <input type="password" id="password" name="password" required placeholder="Enter your password">
+</div>
+<button type="submit" class="login-btn" onclick="login()">Login</button>
+<p class="signup-link">Don't have an account? <a href="./register.html">Sign up here</a></p>
+
+  </div>
+
+
+  <script src="./login.js"></script>
+</body>
+</html>
