@@ -11,7 +11,7 @@ const firebaseConfig = {
   firebase.initializeApp(firebaseConfig);
 
 
-
+//check 
 var db = firebase.firestore()
 var input = document.getElementById("todo")
 var uId = localStorage.getItem("userId")
